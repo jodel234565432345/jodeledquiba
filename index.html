@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCash Online Payment</title>
+</head>
+<body>
+    <h1>GCash Online Payment</h1>
+    
+    <form action="process_payment.php" method="post">
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" placeholder="Enter amount" required><br><br>
+        
+        <label for="mobile_number">GCash Mobile Number:</label>
+        <input type="text" id="mobile_number" name="mobile_number" placeholder="Enter GCash mobile number" required><br><br>
+        
+        <label for="reference_number">Reference Number:</label>
+        <input type="text" id="reference_number" name="reference_number" placeholder="Enter reference number" required><br><br>
+        
+        <button type="submit">Pay with GCash</button>
+    </form>
+</body>
+</html>
